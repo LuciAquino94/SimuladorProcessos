@@ -1,5 +1,5 @@
 import java.util.Queue;
-public abstract class Escalonamento<T> {
+public abstract class Escalonamento {
 
     private CPU cpu;
     private Queue<Processo> listaDeProcessos;
